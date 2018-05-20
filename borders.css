@@ -1,0 +1,174 @@
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+.gl0, .gl1, .gl2, .gl3 {
+    position: relative;
+}
+
+.gl0:before, .gl1:before, .gl2:before, .gl3:before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 0;
+    height: 20px;
+    padding: 2px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: "Courier New", monotype;
+    white-space: nowrap;
+}
+
+.gl0 {
+    box-shadow: inset 0 0 0 2px blue;
+    background: rgba(0, 0, 255, .1);
+}
+
+.gl0:before {
+    color: #fff;
+    background: rgba(0, 0, 255, .9);
+}
+
+.gl1 {
+    box-shadow: 0 0 0 2px green;
+    background: rgba(0, 128, 0, .1);
+}
+
+.gl1:before {
+    color: #fff;
+    background: rgba(0, 128, 0, .9);
+}
+
+.gl2 {
+    box-shadow: 0 0 0 2px rgb(255, 45, 82);
+    background: rgba(255, 45, 82, .1);
+}
+
+.gl2:before {
+    color: #fff;
+    background: rgba(255, 45, 82, .9);
+}
+
+.gl3 {
+    box-shadow: 0 0 0 2px rgb(234, 255, 45);
+    background: rgba(234, 255, 45, .1);
+}
+
+.gl3:before {
+    color: #000;
+    background: rgba(234, 255, 45, .8);
+}
+
+.main-header:before{
+    content: ".main-header";
+}
+
+.container:before{
+    content: ".container";
+    top: -25px;
+    left: -2px;
+}
+
+.header-top:before{
+    content: ".header-top";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.logo:before{
+    content: ".logo";
+}
+
+.main-menu:before{
+    content: ".main-menu";
+}
+
+.promo:before{
+    content: ".promo";
+}
+
+.features:before{
+    content: ".features";
+}
+
+.features-item:before{
+    content: ".features-item";
+}
+
+.feedback:before{
+    content: ".feedback";
+}
+
+.feedback-title:before{
+    content: ".feedback-title";
+}
+
+.feedback-item:before{
+    content: ".feedback-item";
+    top: -25px;
+    left: -2px;
+}
+
+.feedback-author:before{
+    content: ".feedback-author";
+}
+
+.feedback-content:before{
+    content: ".feedback-content";
+}
+
+.contacts:before{
+    content: ".contacts";
+}
+
+.contacts-title:before{
+    content: ".contacts-title";
+}
+
+.contacts-form:before{
+    content: ".contacts-form";
+}
+
+.contacts-instruction:before{
+    content: ".contacts-instruction";
+}
+
+.main-footer:before{
+    content: ".main-footer";
+}
+
+.footer-top:before{
+    content: ".footer-top";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.footer-bottom:before{
+    content: ".footer-bottom";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.footer-address:before{
+    content: ".footer-address";
+}
+
+.footer-menu:before{
+    content: ".footer-menu";
+}
+
+.copyright:before{
+    content: ".copyright";
+}
+
+.footer-social-promo:before{
+    content: ".footer-social-promo";
+}
+
+.footer-social:before{
+    content: ".footer-social";
+}
